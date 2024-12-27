@@ -19,7 +19,9 @@ public class Secondlargest{
      }
  
 }
+ System.out.println("The largest number is: " + largest);
  System.out.println("The second largest number is: " + secondLargest);
+ System.out.println("The smallest number is: " + smallest);
  System.out.println("The second smallest number is: " + secondSmallest);
    
     }
