@@ -1,11 +1,11 @@
 public class Secondlargest{
    public static void main(String[] args){
-    int[] numbers = {63,21,7,0,83,49,74,3,68,43,92,38,92,3,78,20,2}; 
+    int[] numbers = {63,21,7,83,49,74,3,68,43,92,38,92,3,78,20,2}; 
 
     int largest = 0;
     int secondLargest = 0;
-    int smallest = 0;
-    int secondSmallest = 0;
+    int smallest = numbers[0] ;
+    int secondSmallest = numbers[1];
 
     for (int number : numbers) { if (number > largest) { secondLargest = largest;
      largest = number; 
